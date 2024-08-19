@@ -1,0 +1,51 @@
+.navbar-brand {
+    color: cadetblue; /* Tomato color for the brand name */
+    font-family: 'Merriweather', sans-serif; /* Change font family */
+    font-weight: bold; /* Bold font weight */
+}
+
+.navbar-nav .nav-link {
+    color: black; /* White color for nav links */
+    font-size: 1.1rem; /* Slightly larger font size */
+    text-transform: uppercase; /* Uppercase text */
+    margin-left: 15px; /* Spacing between links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: brown;}
+    .carousel-inner img {
+        max-width:50%; /* Ensure image does not exceed the container width */
+        height: auto; /* Maintain aspect ratio */
+        
+        max-height: 600px; /* Adjust height as necessary */
+        object-fit: fill; /* Ensure image covers the area without distortion */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    /* Custom CSS for carousel background color */
+.carousel {
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+/* Custom CSS for carousel control arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000; /* Black background color for arrows */
+}
+
+/* Optional: Customize the size and shape of the arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust width as needed */
+}
+
+/* Ensure arrow icons are visible and centered */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 50%; /* Circular arrow background */
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+}
